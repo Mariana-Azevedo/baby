@@ -1,0 +1,102 @@
+body {
+    background: rgb(126, 184, 250);
+}
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 500px;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left:calc(50% - 110px);
+    transform:translate(-50%,-50%);
+    height: 300px;
+    width: 300px;
+}
+.swaddle.girl {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%,-50%);
+    height: 100%;
+    width:62%;
+    border-radius:999px;
+	overflow:hidden;
+	box-shadow:15px 10px 0px rgba(0,0,0,0.1);
+}
+.swaddle.girl {
+    background:rgb(112, 84, 214);
+}
+.sRight.girl {
+    position: absolute;
+    top: 85%;
+    left:80%;
+    transform: translate(-50%,-50%) rotate(-30deg);
+    width: 150%;
+    height: 70%;
+}
+.sLeft.girl{
+    position: absolute;
+    top: 85%;
+    left:80%;
+    transform: translate(-50%,-50%) rotate(-30deg);
+    width: 150%;
+    height: 70%;
+}
+.sLeft.girl{
+	left:20%;
+	transform:translate(-50%,-50%) rotate(30deg);
+}
+.sRight.girl{
+        background:rgb(150, 133, 189);
+    }
+.sLeft.girl{
+    background:rgb(176, 157, 221);
+}
+.head {
+    position:absolute;
+    top: 4.5%;
+    left:13%;
+    transform:translated(-50%,-50%);
+    height:44%;
+    width:74%;
+    border-radius: 100%;
+    background: rgb(230, 183, 164);
+
+}
+.hairL, .hairR, .hairM{
+    position:absolute;
+    top:11%;
+    left:50%;
+    transform:rotate(20deg) translate(-50%,-50%);
+    height:22%;
+    width:22%;
+    border-left:5px solid rgb(104, 59, 17);
+    border-radius: 100px;
+}
+.hairL{
+	left:42.5%;
+	height:24%;
+	width:22%;
+}
+.hairR{
+	left:54%;
+	top:15%;
+	transform:rotate(36deg) translate(-50%,-50%);
+}
+.earL, .earR {
+    position:absolute;
+    top: 40%;
+    left: -5.5%;
+    transform: translated(-50%,-50%);
+    height: 10%;
+    width: 15%;
+    border-radius: 10000px;
+    background: rgb(230, 183, 164);
+}
+.earR {
+    left:90%
+}
